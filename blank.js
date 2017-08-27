@@ -1,3 +1,8 @@
+window.addEventListener("load", function() {
+    document.getElementById("time")
+        .addEventListener("click", changeto, false);
+}, false);
+
 function checkTime(m) {
     if (m < 10)
         m = "0" + m
