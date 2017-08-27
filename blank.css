@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:500);
+clock {
+    color: white;
+    text-align: center;
+    font: 180px Lato, sans-serif;
+    position: relative;
+}
+
+
+/* Photo by unsplash.com */
+
+body {
+    background-image: url(https://source.unsplash.com/random);
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #000f11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 767px) {
+    clock {
+        font: 130px Lato, sans-serif;
+        top: 20vw;
+    }
+    body {
+        background-image: url(https://source.unsplash.com/random/700x400);
+    }
+}
